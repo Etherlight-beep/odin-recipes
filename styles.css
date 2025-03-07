@@ -1,0 +1,40 @@
+/* Fondo neutro para el body */
+body {
+    background-color: #f0f0f0; /* Color neutro claro */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el título */
+h1 {
+    color: red; /* Letra roja */
+    text-align: center; /* Centrado */
+    padding: 20px;
+    margin-top: 50px; /* Espacio superior */
+}
+
+/* Estilo para la lista (ul) */
+ul {
+    list-style-type: none; /* Sin puntos */
+    padding: 0;
+    margin-left: 20px; /* Alineación a la izquierda */
+}
+
+ul li {
+    padding: 5px;
+    font-size: 18px;
+}
+
+/* Caja interactuable */
+.interactable-box {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue; /* Fondo inicial */
+    margin: 20px auto; /* Centrado horizontal */
+    transition: background-color 0.3s ease; /* Efecto de transición */
+}
+
+.interactable-box:hover {
+    background-color: #ffcc00; /* Cambio de color al pasar el mouse */
+}
